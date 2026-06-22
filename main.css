@@ -1,0 +1,79 @@
+.wrapper {
+  margin: 0 auto;
+  max-width: 960px;
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  grid-gap: 10px;
+}
+
+header {
+  grid-column: span 2;
+  text-align: center;
+}
+
+main {
+  text-align: center;
+  background-color: darkgray;
+  
+
+}
+
+main a {
+  display: block;
+  text-align: center;
+  color: blue;
+  /* add a color for link text */
+  padding: 1em 0;
+  /* space between links */
+  text-decoration: none;
+  /* removes link underlines */
+  border-bottom: 1px solid silver;
+  /* adds a line below each link */
+}
+
+footer {
+  clear: both;
+  grid-column: span 2;
+}
+
+nav {
+  text-transform: uppercase;
+  /* optional */
+  background-color: darkgray;
+  /* change this to your color choice */
+}
+
+nav ul {
+  margin: 0;
+  /* not needed if you're using
+padding: 0; a reset style sheet */
+}
+
+nav li {
+  list-style-type: none;
+  /* removes bullet points */
+}
+
+nav a {
+  display: block;
+  text-align: center;
+  color: blue;
+  /* add a color for link text */
+  padding: 1em 0;
+  /* space between links */
+  text-decoration: none;
+  /* removes link underlines */
+  border-bottom: 1px solid silver;
+  /* adds a line below each link */
+}
+
+nav a:hover {
+  /* mouse hover effect */
+  background-color: grey;
+  /* change this to your color choice */
+}
+
+nav li:last-of-type a {
+  /* removes the border from the last link */
+  border-bottom: none;
+}
