@@ -1,0 +1,37 @@
+.p_n_vid {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  grid-gap: 10px;
+  text-align: center;
+  border: 2px solid black;
+}
+.p_n_vid h3 {
+  border: 1px solid black;
+}
+
+.cg {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  grid-gap: 10px;
+  border: 2px solid black;
+  text-align: center;
+  margin: 1rem;
+}
+.cg h3 {
+  font-size: 120%;
+  border: 2px solid black;
+  padding: .5rem;
+  margin: .5rem;
+}
+
+.ts {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  border: 2px solid black;
+ 
+}
+h2 {
+  font-size: 140%;
+  padding: .5rem 2rem;
+}

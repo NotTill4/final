@@ -1,40 +1,4 @@
-.wrapper {
-  margin: 0 auto;
-  max-width: 960px;
-  display: grid;
-  grid-template-columns: 2fr 2fr;
-  grid-gap: 10px;
-}
 
-header {
-  grid-column: span 2;
-  text-align: center;
-}
-
-main {
-  text-align: center;
-  background-color: darkgray;
-  
-
-}
-
-main a {
-  display: block;
-  text-align: center;
-  color: blue;
-  /* add a color for link text */
-  padding: 1em 0;
-  /* space between links */
-  text-decoration: none;
-  /* removes link underlines */
-  border-bottom: 1px solid silver;
-  /* adds a line below each link */
-}
-
-footer {
-  clear: both;
-  grid-column: span 2;
-}
 
 nav {
   text-transform: uppercase;
@@ -67,7 +31,7 @@ nav a {
   /* adds a line below each link */
 }
 
-nav a:hover {
+a:hover {
   /* mouse hover effect */
   background-color: grey;
   /* change this to your color choice */
@@ -76,4 +40,54 @@ nav a:hover {
 nav li:last-of-type a {
   /* removes the border from the last link */
   border-bottom: none;
+}
+
+.dthrow {
+  font-size: 200%;
+  padding: 1rem;
+  border: 2px solid black;
+  margin-bottom: 0;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 960px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 10px;
+}
+
+
+body {
+  background-color: rgb(44, 44, 44);
+}
+
+header {
+  text-align: center;
+  grid-column: span 2;
+}
+
+main {
+  text-align: center;
+  background-color: darkgray;
+  
+
+}
+
+main a {
+  display: block;
+  text-align: center;
+  color: blue;
+  /* add a color for link text */
+  padding: 1em 0;
+  /* space between links */
+  text-decoration: none;
+  /* removes link underlines */
+  border-bottom: 1px solid silver;
+  /* adds a line below each link */
+}
+
+footer {
+  clear: both;
+  grid-column: span 2;
 }
