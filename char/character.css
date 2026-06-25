@@ -74,12 +74,14 @@ main {
 }
 
 .info {
-
+  display: flex;
   width: 100%;
-
+  justify-content: center;
 }
 
 .info p {
-  margin: 1px;
+  margin: .5rem;
+  padding: .5rem;
   border: 2px solid black;
+  background-color: aliceblue;
 }
