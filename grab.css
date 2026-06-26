@@ -1,7 +1,8 @@
 .wrapper {
   display: block;
-  background-color: darkgray;
-  
+  background-color: #917c918e;
+  font-family: "Elms Sans", sans-serif;;
+
 }
 
 .separator {
@@ -15,13 +16,13 @@
   padding: 1.5em;
   border: 2px solid black;
   margin: 1em;
-  background-color: gray;
+  background-color: aliceblue;
 }
 
 nav {
   text-transform: uppercase;
   /* optional */
-  background-color: darkgray;
+  background-color: aliceblue;
   /* change this to your color choice */
   
 }
@@ -30,15 +31,17 @@ nav {
   display: grid;
   grid-template-columns: 1fr 4fr;
   border: 2px solid black;
+  text-align: center;
+  
 }
 
 .page_links {
   display: grid;
-  border: 2px solid black
+  border: 2px solid black;
 }
 
 .page_links a {
-  padding: .5rem;
+  padding: 1rem 0 0 0;
   /* space between links */
   text-decoration: none;
   /* removes link underlines */
@@ -61,7 +64,7 @@ nav li {
 nav a {
   display: block;
   text-align: center;
-  color: blue;
+
   /* add a color for link text */
   padding: 1em 0;
   /* space between links */
@@ -71,9 +74,21 @@ nav a {
   /* adds a line below each link */
 }
 
+a {
+    color: #612AFA;
+}
+
+nav p {
+  text-align: center;
+  font-weight: bold;
+  padding: 0rem 0 0 0;
+  margin-bottom: 0;
+  border: 2px solid #612AFA;
+}
+
 a:hover {
   /* mouse hover effect */
-  background-color: grey;
+  background-color: #ffceff;
   /* change this to your color choice */
 }
 
@@ -88,18 +103,27 @@ nav li:last-of-type a {
   grid-template-columns: 1fr 1fr;
   grid-gap: 10px;
   text-align: center;
-  background-color: rgb(43, 43, 43);
+  background-color: #6e5a6e;
+  padding-bottom: .5rem;
 }
-.p_n_vid h3 {
-  border: 1px solid black;
-  background-color: rgb(175, 175, 175);
+
+.pn {
+  border: 1px solid #612AFA;
+  background: #845BF8;
+  background: linear-gradient(90deg, rgba(132, 91, 248, 1) 0%, rgba(240, 248, 255, 1) 51%, rgba(255, 206, 255, 1) 100%);
+}
+
+.np {
+  border: 1px solid #612AFA;
+  background: #FFCEFF;
+background: linear-gradient(90deg, rgba(255, 206, 255, 1) 0%, rgba(240, 248, 255, 1) 51%, rgba(132, 91, 248, 1) 100%);
 }
 
 .cg {
   display: grid;
   grid-template-columns: 2fr 2fr;
   grid-gap: 10px;
-  border: 2px solid black;
+  border: 2px solid #612AFA;
   text-align: center;
   margin: 1rem;
   
@@ -108,7 +132,7 @@ nav li:last-of-type a {
 
 .cg h3 {
   font-size: 120%;
-  border: 2px solid black;
+  border: 2px solid #612AFA;
   padding: .5rem;
   margin: .5rem;
 }
@@ -121,13 +145,15 @@ li {
   display: grid;
   margin: 1rem;
   grid-template-columns: 1fr 1fr 1fr;
-  border: 2px solid black;
+  border: 2px solid #612AFA;
   text-align: center;
  
 }
 
 .ts h3 {
-  border: 2px black solid;
+  border: 2px #612AFA solid;
+  padding: .5rem;
+  margin: .5rem;
 
 }
 
@@ -135,11 +161,11 @@ li {
 
 h2 {
   font-size: 140%;
-  padding: .5rem 2rem;
+  padding: .5rem 2rem 1rem 2rem;
 }
 
 .in_grab {
-  border: 2px solid black;
+  border: 2px solid #612AFA;
   margin: 1rem;
   padding: 1rem;
 }
